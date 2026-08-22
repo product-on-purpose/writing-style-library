@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Dependency bumps:** `astro` 7.1.6 to 7.2.2, `@astrojs/starlight` 0.41.6 to 0.41.7, and the
+  `pre-commit` dev requirement to >=4.6.2. Recorded individually because they ride in the tag,
+  so a reader diffing releases sees `site/package.json` and the pre-commit pin move.
+
 ## [0.13.0] - 2026-08-07
 
 The accuracy release. Diff-pair coverage closes across all twelve anchor topics, and every
